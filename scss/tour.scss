@@ -1,7 +1,7 @@
 header {
     width: $content-width;
-    height: 200px;
-   padding-top: 50px;
+    height: 220px;
+   padding-top: 70px;
     margin: 0 auto;
     .lilHero {
         background-image: linear-gradient(
@@ -14,9 +14,10 @@ header {
         justify-content: center;
         align-items: center;
         h1 {
-            font-size: 60px;
+            font-size: 50px;
             color: $site-white;
-            font-family: GillSansReg;
+            font-family: GillSansI;
+            font-weight: normal;
             
             
         }
@@ -39,19 +40,22 @@ header {
             width: 100%;
             height: 50%;
             text-align: center;
-            padding-top: 40px;
+            padding-top: 60px;
             color: $site-white;
-            font-family: GillSansReg;
+            font-family: GillSansI;
+            
             h1 {
-                font-size: 50px;
+                font-size: 35px;
+                font-weight: normal;
             }
             h2 {
-                font-size: 30px;
+                font-size: 25px;
+                font-weight: normal;
             }
         }
         .buttonContain {
             width: 100%;
-            height: 50%;
+            height: 30%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -65,7 +69,7 @@ header {
         border: none;
         border-radius: 30px;
         font-size: 15px;
-        margin-top: 30px;
+        // margin-top: 30px;
             }
         }
     }

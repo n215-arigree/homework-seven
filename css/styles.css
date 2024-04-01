@@ -59,9 +59,10 @@ nav .links {
 .home {
   margin-top: -65px;
   height: 1600px;
+  margin-bottom: 50px;
 }
 .home .hero {
-  height: 400px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,7 +82,7 @@ nav .links {
   font-size: 15px;
 }
 .home .hero h1 {
-  font-family: GillSansReg;
+  font-family: GillSansI;
   font-size: 60px;
 }
 .home .hero p {
@@ -108,12 +109,14 @@ nav .links {
   background-color: green;
 }
 .home .specials .box h1 {
-  font-family: GillSansReg;
-  font-size: 60px;
+  font-family: GillSansI;
+  font-size: 50px;
+  font-weight: normal;
   color: #ffffff;
 }
 .home .specials .box h2 {
-  font-family: GillSansReg;
+  font-family: GillSansI;
+  font-weight: normal;
   font-size: 30px;
   color: #ffffff;
 }
@@ -133,8 +136,8 @@ nav .links {
   width: 818px;
   margin: 0 auto;
   margin-bottom: 30px;
-  font-family: GillSansReg;
-  font-size: 30px;
+  font-family: GillSansI;
+  font-size: 20px;
 }
 .home .form {
   font-family: GillSansL;
@@ -213,6 +216,7 @@ nav .links {
 }
 .home .form button {
   margin-top: 37px;
+  margin-bottom: 50px;
   width: 818px;
   height: 60.59px;
   background-color: #79ADDC;
@@ -326,12 +330,12 @@ nav .links {
   margin-bottom: 36px;
 }
 .about .container h1 {
-  font-family: GillSansReg;
-  font-size: 60px;
+  font-family: GillSansI;
+  font-size: 50px;
 }
 .about h2 {
-  font-family: GillSansReg;
-  font-size: 40px;
+  font-family: GillSansI;
+  font-size: 30px;
 }
 .about hr {
   border: 1px solid black;
@@ -340,7 +344,7 @@ nav .links {
 }
 .about .quotes {
   display: flex;
-  font-family: GillSansI;
+  font-family: GillSansReg;
   margin-top: 37px;
   width: 722px;
   height: 150px;
@@ -401,8 +405,8 @@ nav .links {
 }
 header {
   width: 980px;
-  height: 200px;
-  padding-top: 50px;
+  height: 220px;
+  padding-top: 70px;
   margin: 0 auto;
 }
 header .lilHero {
@@ -414,9 +418,10 @@ header .lilHero {
   align-items: center;
 }
 header .lilHero h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: #ffffff;
-  font-family: GillSansReg;
+  font-family: GillSansI;
+  font-weight: normal;
 }
 
 .countries {
@@ -437,19 +442,21 @@ header .lilHero h1 {
   width: 100%;
   height: 50%;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
   color: #ffffff;
-  font-family: GillSansReg;
+  font-family: GillSansI;
 }
 .countries .countryBox .textContent h1 {
-  font-size: 50px;
+  font-size: 35px;
+  font-weight: normal;
 }
 .countries .countryBox .textContent h2 {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: normal;
 }
 .countries .countryBox .buttonContain {
   width: 100%;
-  height: 50%;
+  height: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -464,7 +471,6 @@ header .lilHero h1 {
   border: none;
   border-radius: 30px;
   font-size: 15px;
-  margin-top: 30px;
 }
 
 @media (max-width: 800px) {

@@ -1,8 +1,9 @@
 .home {
   margin-top: -65px;
   height: 1600px;
+  margin-bottom: 50px;
   .hero {
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +26,7 @@
         font-size: 15px;
     }
     h1 {
-      font-family: GillSansReg;
+      font-family: GillSansI;
         font-size: 60px;
     }
     p {
@@ -51,12 +52,14 @@
       width: 236px;
       background-color: green;
       h1 {
-        font-family: GillSansReg;
-        font-size: 60px;
+        font-family: GillSansI;
+        font-size: 50px;
+        font-weight: normal;
         color: $site-white;
       }
       h2 {
-        font-family: GillSansReg;
+        font-family: GillSansI;
+        font-weight: normal;
         font-size: 30px;
         color: $site-white;
       }
@@ -78,8 +81,8 @@
     width: $home-content-width;
     margin: 0 auto;
     margin-bottom: 30px;
-    font-family: GillSansReg;
-    font-size: 30px;
+    font-family: GillSansI;
+    font-size: 20px;
   }
   .form {
     font-family: GillSansL;
@@ -96,6 +99,7 @@
     // background-color: coral;
     display: flex;
     flex-wrap: wrap;
+   
     .formText{
         width: $home-content-width;
         // background-color: coral;
@@ -173,6 +177,7 @@
     }
     button {
         margin-top: 37px;
+       margin-bottom: 50px;
         width: $home-content-width;
         height: 60.59px;
         background-color: $site-blue;
