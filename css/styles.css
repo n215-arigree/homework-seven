@@ -326,7 +326,7 @@ nav .links {
 }
 .about .container hr {
   border: 1px solid black;
-  width: 150px;
+  width: 171px;
   margin-bottom: 36px;
 }
 .about .container h1 {
@@ -587,6 +587,117 @@ header .lilHero h1 {
   }
   .tourPackage .dayContainer .day p {
     width: 100%;
+  }
+}
+.special {
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 980px;
+  margin-bottom: 100px;
+}
+.special h2 {
+  font-family: GillSansI;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.special hr {
+  width: 212px;
+  border: 1px solid black;
+}
+.special .offers {
+  display: flex;
+  font-family: GillSansReg;
+  margin-top: 37px;
+  width: 722px;
+}
+.special .offers .photo {
+  width: 199px;
+  height: 287px;
+  background-color: orange;
+  margin-right: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.special .offers .text {
+  margin-left: 50px;
+}
+.special .offers .text h2 {
+  font-family: GillSansI;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.special .offers .text h2 span {
+  font-size: 15px;
+  color: #FF7D38;
+  margin: 0;
+}
+.special .offers .text h2 hr {
+  width: 300px;
+}
+.special .offers .text p {
+  padding-top: 15px;
+  width: 350px;
+  font-family: GillSansL;
+}
+.special .offers .text .buttonContain {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: left;
+  align-items: end;
+}
+.special .offers .text .buttonContain button {
+  width: 133px;
+  height: 40px;
+  font-family: GillSansReg;
+  font-size: 15px;
+  background-color: #79ADDC;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
+@media all and (max-width: 750px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+  }
+  .about .container {
+    width: 100%;
+  }
+  .about .quotes {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+  .about .quotes .photo {
+    height: 150px;
+  }
+  .about .quotes p {
+    width: 80%;
+  }
+}
+@media all and (max-width: 990px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+  }
+  .about .container {
+    width: 100%;
+  }
+  .about .quotes {
+    width: 100%;
+  }
+  .about .quotes .photo {
+    height: 150px;
+  }
+  .about .quotes p {
+    width: 80%;
   }
 }
 footer {
