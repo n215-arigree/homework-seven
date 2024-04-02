@@ -700,6 +700,108 @@ header .lilHero h1 {
     width: 80%;
   }
 }
+.blog {
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 980px;
+  margin-bottom: 100px;
+}
+.blog h2 {
+  font-family: GillSansI;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.blog hr {
+  width: 80px;
+  border: 1px solid black;
+}
+.blog .articles {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.blog .articles .date {
+  width: 60px;
+  height: 368px;
+  margin-right: 15px;
+}
+.blog .articles .date .dateBox {
+  width: 60px;
+  height: 60px;
+  background-color: #79ADDC;
+}
+.blog .articles .date .dateBox p {
+  color: #ffffff;
+  font-family: GillSansReg;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 5px;
+}
+.blog .articles .rightBox .image {
+  width: 900px;
+  height: 259px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .articles .rightBox .text {
+  width: 400px;
+}
+.blog .articles .rightBox .text h3 {
+  font-family: GillSansReg;
+  font-weight: normal;
+  font-size: 15px;
+  padding-top: 10px;
+}
+.blog .articles .rightBox .text p {
+  color: #79ADDC;
+  font-family: GillSansReg;
+  font-size: 13px;
+}
+
+@media all and (max-width: 750px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+  }
+  .about .container {
+    width: 100%;
+  }
+  .about .quotes {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+  .about .quotes .photo {
+    height: 150px;
+  }
+  .about .quotes p {
+    width: 80%;
+  }
+}
+@media all and (max-width: 990px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+  }
+  .about .container {
+    width: 100%;
+  }
+  .about .quotes {
+    width: 100%;
+  }
+  .about .quotes .photo {
+    height: 150px;
+  }
+  .about .quotes p {
+    width: 80%;
+  }
+}
 footer {
   height: 100px;
   background-color: #79ADDC;

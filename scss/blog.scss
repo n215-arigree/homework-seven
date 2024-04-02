@@ -1,0 +1,118 @@
+.blog {
+  margin: 0 auto;
+  margin-top: 90px;
+  width: $content-width;
+  h2 {
+    font-family: GillSansI;
+    font-weight: normal;
+    margin: 0 auto;
+  }
+  hr {
+    width: 80px;
+    border: 1px solid black;
+  }
+
+  margin-bottom: 100px;
+  .articles {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 50px;
+      .date {
+        width: 60px;
+        height: 368px;
+        margin-right: 15px;
+        .dateBox {
+            width: 60px;
+            height: 60px;
+            background-color: $site-blue;
+            
+            p{
+                color: $site-white;
+            font-family: GillSansReg;
+            font-size: 20px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 5px;
+            
+            }
+        }
+      }
+      .rightBox {
+        .image {
+          width: 900px;
+          height: 259px;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .text {
+            width: 400px;
+            h3{
+                font-family: GillSansReg;
+                font-weight: normal;
+                font-size: 15px;
+                padding-top: 10px;
+            }
+            p{
+                color: $site-blue;
+                font-family: GillSansReg;
+                font-size: 13px;
+            }
+        }
+      
+    }
+  }
+}
+
+@media all and (max-width: 750px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+
+    .container {
+      width: 100%;
+      p {
+      }
+    }
+
+    .quotes {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+      height: fit-content;
+
+      .photo {
+        height: 150px;
+      }
+      p {
+        width: 80%;
+      }
+    }
+  }
+}
+@media all and (max-width: 990px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+
+    .container {
+      width: 100%;
+      p {
+      }
+    }
+
+    .quotes {
+      width: 100%;
+
+      .photo {
+        height: 150px;
+      }
+      p {
+        width: 80%;
+      }
+    }
+  }
+}
