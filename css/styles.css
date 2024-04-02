@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 nav {
-  height: 65px;
+  height: 100px;
   width: 980px;
   margin: 0 auto;
   background-color: transparent;
@@ -23,6 +23,8 @@ nav {
   border-bottom: 2px solid #000000;
   position: relative;
   z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 nav a {
   font-family: GillSansReg;
@@ -222,7 +224,7 @@ nav .links {
   background-color: #79ADDC;
   border: none;
   color: #ffffff;
-  border-radius: 30px;
+  border-radius: 20px;
   font-family: GillSansReg;
   font-size: 15px;
 }
@@ -675,44 +677,20 @@ header .lilHero h1 {
 }
 
 @media all and (max-width: 750px) {
-  .about {
+  .special {
     padding-left: 30px;
-    height: 950px;
     width: 100%;
   }
-  .about .container {
-    width: 100%;
-  }
-  .about .quotes {
+  .special .offers {
     flex-direction: column;
-    display: flex;
-    align-items: center;
-    height: fit-content;
   }
-  .about .quotes .photo {
-    height: 150px;
-  }
-  .about .quotes p {
-    width: 80%;
+  .special .offers .text {
+    margin: 0;
   }
 }
-@media all and (max-width: 990px) {
-  .about {
-    padding-left: 30px;
-    height: 950px;
-    width: 100%;
-  }
-  .about .container {
-    width: 100%;
-  }
-  .about .quotes {
-    width: 100%;
-  }
-  .about .quotes .photo {
-    height: 150px;
-  }
-  .about .quotes p {
-    width: 80%;
+@media all and (max-width: 1030px) {
+  .special {
+    margin-left: 30px;
   }
 }
 .blog {
@@ -776,45 +754,41 @@ header .lilHero h1 {
   font-size: 13px;
 }
 
-@media all and (max-width: 750px) {
-  .about {
+@media all and (max-width: 900px) {
+  .blog {
     padding-left: 30px;
     height: 950px;
     width: 100%;
   }
-  .about .container {
+  .blog .container {
     width: 100%;
   }
-  .about .quotes {
+  .blog .quotes {
     flex-direction: column;
     display: flex;
     align-items: center;
     height: fit-content;
   }
-  .about .quotes .photo {
+  .blog .quotes .photo {
     height: 150px;
   }
-  .about .quotes p {
+  .blog .quotes p {
     width: 80%;
   }
 }
-@media all and (max-width: 990px) {
-  .about {
-    padding-left: 30px;
-    height: 950px;
-    width: 100%;
+@media all and (max-width: 1030px) {
+  .blog {
+    margin-left: 30px;
   }
-  .about .container {
-    width: 100%;
+  .blog .articles {
+    flex-direction: column;
   }
-  .about .quotes {
-    width: 100%;
+  .blog .articles .date {
+    height: 70px;
   }
-  .about .quotes .photo {
-    height: 150px;
-  }
-  .about .quotes p {
-    width: 80%;
+  .blog .articles .rightBox .image {
+    width: 90%;
+    margin-right: 30px;
   }
 }
 .contact {
@@ -886,45 +860,14 @@ header .lilHero h1 {
   font-size: 15px;
 }
 
-@media all and (max-width: 750px) {
-  .about {
-    padding-left: 30px;
-    height: 950px;
-    width: 100%;
+@media all and (max-width: 1030px) {
+  .contact {
+    margin-left: 30px;
+    margin-bottom: 50px;
   }
-  .about .container {
-    width: 100%;
-  }
-  .about .quotes {
-    flex-direction: column;
+  .contact .container {
     display: flex;
-    align-items: center;
-    height: fit-content;
-  }
-  .about .quotes .photo {
-    height: 150px;
-  }
-  .about .quotes p {
-    width: 80%;
-  }
-}
-@media all and (max-width: 990px) {
-  .about {
-    padding-left: 30px;
-    height: 950px;
-    width: 100%;
-  }
-  .about .container {
-    width: 100%;
-  }
-  .about .quotes {
-    width: 100%;
-  }
-  .about .quotes .photo {
-    height: 150px;
-  }
-  .about .quotes p {
-    width: 80%;
+    flex-direction: column;
   }
 }
 footer {

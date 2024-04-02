@@ -1,7 +1,8 @@
 .special {
-  margin: 0 auto;
+   margin: 0 auto;
   margin-top: 90px;
   width: $content-width;
+
   h2 {
     font-family: GillSansI;
     font-weight: normal;
@@ -73,53 +74,25 @@
 }
 
 @media all and (max-width: 750px) {
-  .about {
+  .special {
     padding-left: 30px;
-    height: 950px;
     width: 100%;
-
-    .container {
-      width: 100%;
-      p {
-      }
-    }
-
-    .quotes {
-      flex-direction: column;
-      display: flex;
-      align-items: center;
-      height: fit-content;
-
-      .photo {
-        height: 150px;
-      }
-      p {
-        width: 80%;
-      }
+    
+   
+    .offers {
+        flex-direction: column;
+        
+        .photo {
+            
+        }
+        .text {
+            margin: 0;
+        }
     }
   }
 }
-@media all and (max-width: 990px) {
-  .about {
-    padding-left: 30px;
-    height: 950px;
-    width: 100%;
-
-    .container {
-      width: 100%;
-      p {
-      }
+@media all and (max-width: 1030px){
+    .special {
+        margin-left: 30px;
     }
-
-    .quotes {
-      width: 100%;
-
-      .photo {
-        height: 150px;
-      }
-      p {
-        width: 80%;
-      }
-    }
-  }
 }

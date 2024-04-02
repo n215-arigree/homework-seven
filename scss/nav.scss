@@ -1,5 +1,5 @@
 nav {
-  height: 65px;
+  height: 100px;
   width: $content-width;
   margin: 0 auto;
   background-color: transparent;
@@ -11,6 +11,8 @@ nav {
   border-bottom: 2px solid $site-black;
   position: relative;
   z-index: 1;
+  padding-top: 10px;
+  padding-bottom: 20px;
   a {
     font-family: GillSansReg;
     // background-color: gray;
