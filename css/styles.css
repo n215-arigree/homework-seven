@@ -484,8 +484,14 @@ header .lilHero h1 {
     max-width: 300px;
   }
 }
+.tourPackage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .tourPackage header {
-  margin-top: 20px;
+  margin-top: 70px;
   height: 413px;
   width: 981px;
   background-position: center;
@@ -494,10 +500,11 @@ header .lilHero h1 {
   padding: 0;
 }
 .tourPackage header h1 {
-  padding: 10px;
-  font-size: 80px;
+  padding: 30px;
+  font-size: 70px;
   color: #ffffff;
-  font-family: GillSansReg;
+  font-family: GillSansI;
+  font-weight: normal;
 }
 .tourPackage header .right {
   text-align: right;
@@ -505,16 +512,19 @@ header .lilHero h1 {
 .tourPackage header .right h4 {
   font-size: 30px;
   color: #ffffff;
-  font-family: GillSansReg;
+  font-family: GillSansI;
+  font-weight: normal;
   padding: 10px;
-  padding-top: 250px;
+  padding-top: 210px;
 }
 .tourPackage .images {
+  width: 980px;
   padding-top: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  justify-content: space-between;
 }
 .tourPackage .images .img {
   height: 347px;
@@ -529,19 +539,24 @@ header .lilHero h1 {
 }
 .tourPackage .dayContainer .day {
   padding-top: 10px;
+  padding-bottom: 50px;
 }
 .tourPackage .dayContainer .day h1 {
-  font-size: 60px;
+  font-size: 50px;
   color: black;
-  font-family: GillSansReg;
+  font-family: GillSansI;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.tourPackage .dayContainer .day hr {
+  width: 171px;
+  border: 1px solid black;
+  margin-bottom: 30px;
 }
 .tourPackage .dayContainer .day p {
   font-size: 16px;
   color: black;
   font-family: GillSansReg;
-}
-.tourPackage .dayContainer hr {
-  width: 171px;
 }
 .tourPackage .dayContainer .buttonContain {
   display: flex;
