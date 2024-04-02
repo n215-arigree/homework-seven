@@ -802,6 +802,116 @@ header .lilHero h1 {
     width: 80%;
   }
 }
+.contact {
+  margin: 0 auto;
+  margin-top: 90px;
+  width: 980px;
+}
+.contact h2 {
+  font-family: GillSansI;
+  font-weight: normal;
+  margin: 0 auto;
+}
+.contact hr {
+  width: 159px;
+  border: 1px solid black;
+}
+.contact .container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact .container .mapBox .map {
+  width: 400px;
+  height: 442px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .container .mapBox .text {
+  width: 400px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.contact .container .mapBox .text p {
+  font-size: 18px;
+  margin: 0;
+  font-family: GillSansL;
+}
+.contact .container .formBox {
+  width: 529px;
+}
+.contact .container .formBox form {
+  display: flex;
+  flex-direction: column;
+}
+.contact .container .formBox form input {
+  padding-left: 10px;
+  margin-bottom: 15px;
+  height: 60px;
+  background-color: #f5f5f5;
+  border: none;
+  font-family: GillSansReg;
+}
+.contact .container .formBox form textarea {
+  padding-left: 10px;
+  margin-bottom: 15px;
+  height: 60px;
+  background-color: #f5f5f5;
+  border: none;
+  font-family: GillSansReg;
+  padding-top: 10px;
+}
+.contact .container .formBox button {
+  width: 167px;
+  height: 60px;
+  background-color: #79ADDC;
+  color: #ffffff;
+  border: none;
+  font-size: 15px;
+}
+
+@media all and (max-width: 750px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+  }
+  .about .container {
+    width: 100%;
+  }
+  .about .quotes {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+  }
+  .about .quotes .photo {
+    height: 150px;
+  }
+  .about .quotes p {
+    width: 80%;
+  }
+}
+@media all and (max-width: 990px) {
+  .about {
+    padding-left: 30px;
+    height: 950px;
+    width: 100%;
+  }
+  .about .container {
+    width: 100%;
+  }
+  .about .quotes {
+    width: 100%;
+  }
+  .about .quotes .photo {
+    height: 150px;
+  }
+  .about .quotes p {
+    width: 80%;
+  }
+}
 footer {
   height: 100px;
   background-color: #79ADDC;
